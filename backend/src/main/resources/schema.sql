@@ -1,0 +1,38 @@
+-- Spring Boot Initialization Schema for Blessings Foundation & Trust
+
+CREATE TABLE IF NOT EXISTS volunteers (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(150) NOT NULL,
+  email VARCHAR(150) NOT NULL,
+  phone VARCHAR(25) NOT NULL,
+  address TEXT,
+  interest VARCHAR(100),
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS contact_messages (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(150) NOT NULL,
+  email VARCHAR(150) NOT NULL,
+  phone VARCHAR(25),
+  subject VARCHAR(200) NOT NULL,
+  message TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS events (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(200) NOT NULL,
+  event_date VARCHAR(50) NOT NULL,
+  location VARCHAR(200) NOT NULL,
+  description TEXT NOT NULL,
+  image_url VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS programs (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(200) NOT NULL,
+  description TEXT NOT NULL,
+  image_url VARCHAR(255)
+);

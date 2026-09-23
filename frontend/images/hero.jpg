@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="warmLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f58220" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#e06900" stop-opacity="0.05" />
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="60%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#f58220" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1600" height="900" fill="url(#skyGrad)" />
+  <rect width="1600" height="900" fill="url(#sunGlow)" />
+  <rect width="1600" height="900" fill="url(#warmLight)" />
+
+  <!-- Subtle abstract glowing community network & hills -->
+  <g opacity="0.35">
+    <path d="M0 650 Q 400 550, 800 620 T 1600 580 L 1600 900 L 0 900 Z" fill="#1e3a8a" opacity="0.3" />
+    <path d="M0 720 Q 450 630, 900 700 T 1600 660 L 1600 900 L 0 900 Z" fill="#0f172a" opacity="0.7" />
+    <path d="M0 780 Q 500 700, 1000 750 T 1600 720 L 1600 900 L 0 900 Z" fill="#020617" opacity="0.9" />
+  </g>
+
+  <!-- Community silhouettes: children, teachers, healthcare workers, families -->
+  <g fill="#ffffff" opacity="0.15" transform="translate(450, 480) scale(1.3)">
+    <!-- Person 1 (Adult reaching down to child) -->
+    <circle cx="100" cy="80" r="14" />
+    <path d="M 85 100 C 85 92, 115 92, 115 100 L 120 160 L 105 160 L 105 220 L 95 220 L 95 160 L 80 160 Z" />
+    <!-- Child -->
+    <circle cx="140" cy="110" r="10" />
+    <path d="M 130 125 C 130 120, 150 120, 150 125 L 153 175 L 143 175 L 143 220 L 137 220 L 137 175 L 127 175 Z" />
+    <!-- Person 2 (Holding book/clipboard) -->
+    <circle cx="180" cy="75" r="14" />
+    <path d="M 165 95 C 165 88, 195 88, 195 95 L 200 160 L 185 160 L 185 220 L 175 220 L 175 160 L 160 160 Z" />
+    <!-- Person 3 (Elder / community leader) -->
+    <circle cx="230" cy="70" r="15" />
+    <path d="M 213 92 C 213 85, 247 85, 247 92 L 250 160 L 235 160 L 235 220 L 225 220 L 225 160 L 210 160 Z" />
+    <!-- Person 4 (Student waving) -->
+    <circle cx="280" cy="85" r="12" />
+    <path d="M 268 103 C 268 96, 292 96, 292 103 L 295 160 L 283 160 L 283 220 L 277 220 L 277 160 L 265 160 Z" />
+    <!-- Hands reaching upward symbolism in background -->
+  </g>
+
+  <!-- Constellations / Network of care -->
+  <g stroke="#f58220" stroke-width="1.5" opacity="0.3" fill="#ffffff">
+    <line x1="200" y1="250" x2="350" y2="180" />
+    <line x1="350" y1="180" x2="500" y2="280" />
+    <line x1="500" y1="280" x2="680" y2="200" />
+    <line x1="1050" y1="220" x2="1200" y2="150" />
+    <line x1="1200" y1="150" x2="1380" y2="250" />
+    <circle cx="200" cy="250" r="4" />
+    <circle cx="350" cy="180" r="5" fill="#f58220" />
+    <circle cx="500" cy="280" r="4" />
+    <circle cx="680" cy="200" r="6" fill="#f58220" />
+    <circle cx="1050" cy="220" r="4" />
+    <circle cx="1200" cy="150" r="6" fill="#f58220" />
+    <circle cx="1380" cy="250" r="4" />
+  </g>
+
+  <!-- Modern decorative geometric badge -->
+  <g transform="translate(1300, 100)" opacity="0.2">
+    <circle cx="100" cy="100" r="90" stroke="#ffffff" stroke-width="2" fill="none" stroke-dasharray="8 6" />
+    <polygon points="100,20 180,140 20,140" stroke="#f58220" stroke-width="2" fill="none" />
+  </g>
+</svg>

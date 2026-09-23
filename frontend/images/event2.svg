@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ev2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#ev2)" />
+  <circle cx="480" cy="100" r="140" fill="#f58220" opacity="0.15" />
+  <!-- Book / Education icon -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="80" height="80" rx="20" fill="#f58220" />
+    <!-- Book symbol -->
+    <path d="M 22 28 C 30 24, 40 24, 40 28 L 40 56 C 40 52, 30 52, 22 56 Z" fill="#ffffff" />
+    <path d="M 58 28 C 50 24, 40 24, 40 28 L 40 56 C 40 52, 50 52, 58 56 Z" fill="#ffffff" opacity="0.8" />
+  </g>
+  <text x="60" y="190" font-family="'Outfit', sans-serif" font-size="28" font-weight="800" fill="#ffffff">
+    Youth Education &amp; Kit Distribution
+  </text>
+  <text x="60" y="225" font-family="'Inter', sans-serif" font-size="15" fill="#cbd5e1">
+    Providing notebooks, uniforms &amp; learning tools to rural students
+  </text>
+  <g transform="translate(60, 255)">
+    <rect width="180" height="36" rx="18" fill="#f58220" />
+    <text x="90" y="23" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">
+      EDUCATION DRIVE
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Blessings Foundation &amp; Trust</title>
+  <meta name="description" content="Get in touch with Blessings Foundation &amp; Trust for community inquiries, volunteer participation, and partnership opportunities.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-contact">
+        <span class="top-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          contact@blessingsfoundation.org (Placeholder)
+        </span>
+        <span class="top-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          +91 98765 43210 (Placeholder)
+        </span>
+      </div>
+      <div>
+        <span class="top-badge">We Welcome Your Queries &amp; Feedback</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="images/blessings-foundation-logo.jpeg" alt="Blessings Foundation &amp; Trust Logo" class="brand-logo-img">
+        <div class="brand-logo-text">
+          <span class="brand-title">BLESSINGS</span>
+          <span class="brand-subtitle">FOUNDATION &amp; TRUST</span>
+        </div>
+      </a>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="programs.html" class="nav-link">Our Work</a>
+        <a href="programs.html#all-programs" class="nav-link">Programs</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="volunteer.html" class="nav-link">Get Involved</a>
+        <a href="contact.html" class="nav-link active">Contact Us</a>
+        <div class="header-action">
+          <a href="donate.html" class="btn btn-primary btn-sm">Donate Now</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header Banner -->
+  <section style="background: linear-gradient(135deg, var(--secondary) 0%, #15304f 100%); color: #ffffff; padding: 4.5rem 0 3.5rem;">
+    <div class="container">
+      <span class="section-tag" style="background: rgba(245,130,32,0.2); color: #fed7aa; border: 1px solid rgba(245,130,32,0.4);">GET IN TOUCH</span>
+      <h1 style="color: #ffffff; font-size: 2.75rem; margin-top: 0.5rem; margin-bottom: 0.75rem;">Contact Us</h1>
+      <p style="color: #cbd5e1; font-size: 1.15rem; max-width: 720px;">
+        We would love to hear from you. Reach out to us for community drives, donation receipts, volunteer inquiries, or collaborations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Information & Form -->
+  <section class="section-padding bg-light">
+    <div class="container">
+      <div class="about-grid" style="align-items: flex-start;">
+        <!-- Left: Contact Form -->
+        <div>
+          <div class="form-card">
+            <h2 style="font-size: 1.85rem; margin-bottom: 0.5rem;">Send Us a Message</h2>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem;">
+              Fill in the form below and our team will get back to you promptly.
+            </p>
+
+            <!-- Alert Notification -->
+            <div id="contactAlert" class="form-alert" role="alert"></div>
+
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Your Name *</label>
+                  <input type="text" id="contactName" name="name" class="form-control" placeholder="Full name" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="contactEmail" name="email" class="form-control" placeholder="name@example.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactPhone" class="form-label">Phone Number</label>
+                  <input type="tel" id="contactPhone" name="phone" class="form-control" placeholder="e.g. +91 9876543210">
+                </div>
+
+                <div class="form-group">
+                  <label for="contactSubject" class="form-label">Subject *</label>
+                  <input type="text" id="contactSubject" name="subject" class="form-control" placeholder="Subject of inquiry" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Your Message *</label>
+                <textarea id="contactMessage" name="message" class="form-control" placeholder="Write your message or inquiry here..." required></textarea>
+              </div>
+
+              <button type="submit" id="contactSubmitBtn" class="btn btn-primary" style="width: 100%;">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right: Official Office Details & Map Area -->
+        <div>
+          <span class="section-tag">Direct Coordinates</span>
+          <h2 class="section-title" style="font-size: 2rem;">Trust Office &amp; Details</h2>
+          <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem;">
+            Feel free to visit our operational office or contact our representatives during working hours (Mon &ndash; Sat: 9:30 AM &ndash; 6:00 PM).
+          </p>
+
+          <div class="about-cards-grid">
+            <!-- Address Card -->
+            <div class="about-card">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <div>
+                <h3 class="about-card-title">Registered Office (Placeholder)</h3>
+                <p class="about-card-text">
+                  Blessings Foundation &amp; Trust<br>
+                  [Street / Building Placeholder], [Area Name],<br>
+                  [City, State, Postal Code Placeholder]
+                </p>
+              </div>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="about-card">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              </div>
+              <div>
+                <h3 class="about-card-title">Helpline &amp; WhatsApp (Placeholder)</h3>
+                <p class="about-card-text">
+                  Main: +91 [98765 43210 Placeholder]<br>
+                  Volunteer Desk: +91 [98765 43211 Placeholder]
+                </p>
+              </div>
+            </div>
+
+            <!-- Email Card -->
+            <div class="about-card">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </div>
+              <div>
+                <h3 class="about-card-title">Official Email (Placeholder)</h3>
+                <p class="about-card-text">
+                  contact@blessingsfoundation.org (Placeholder)<br>
+                  support@blessingsfoundation.org (Placeholder)
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Maps Area (Placeholder) -->
+          <div style="margin-top: 2rem; border-radius: var(--radius-lg); overflow: hidden; border: 1.5px solid var(--border-color); box-shadow: var(--shadow-sm); background-color: var(--bg-white);">
+            <div style="padding: 1rem 1.25rem; background-color: var(--secondary); color: #ffffff; display: flex; align-items: center; justify-content: space-between;">
+              <span style="font-weight: 600; font-size: 0.95rem;">Location Map (Interactive Placeholder)</span>
+              <span style="font-size: 0.8rem; color: #cbd5e1;">Google Maps Area</span>
+            </div>
+            <!-- Embedded Map container with clean responsive fallback -->
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; background: #e2e8f0;">
+              <iframe 
+                title="Blessings Foundation Office Location Map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.562064972322!2d77.20653221508215!3d28.612912082424915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2daa9eb4d0b%3A0x717971125923e5d!2sIndia%20Gate!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin" 
+                style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border: 0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>
+            <span style="color: var(--primary); font-size: 1.6rem;">&#9829;</span>
+            Blessings Foundation &amp; Trust
+          </h4>
+          <p>
+            Blessings Foundation &amp; Trust is committed to supporting communities, empowering people, and creating opportunities for a brighter and more inclusive tomorrow.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">&rarr; Home</a></li>
+            <li><a href="about.html">&rarr; About Us</a></li>
+            <li><a href="programs.html">&rarr; Our Work</a></li>
+            <li><a href="gallery.html">&rarr; Photo Gallery</a></li>
+            <li><a href="events.html">&rarr; Events</a></li>
+            <li><a href="volunteer.html">&rarr; Volunteer</a></li>
+            <li><a href="contact.html">&rarr; Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Our Programs</h4>
+          <ul class="footer-links">
+            <li><a href="programs.html#education">&rarr; Education Support</a></li>
+            <li><a href="programs.html#healthcare">&rarr; Healthcare Camps</a></li>
+            <li><a href="programs.html#women">&rarr; Women Empowerment</a></li>
+            <li><a href="programs.html#child">&rarr; Child Welfare</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Contact Information</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span>[Organization Address Placeholder]<br>Main Road, City, State - PIN</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <span>+91 [Phone Placeholder]</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Blessings Foundation &amp; Trust. All Rights Reserved.</p>
+        <p>A Dedicated Grassroots Welfare &amp; Community Development Trust.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

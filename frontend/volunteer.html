@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Become a Volunteer | Blessings Foundation &amp; Trust</title>
+  <meta name="description" content="Join our passionate volunteer network at Blessings Foundation &amp; Trust and help us create a brighter future for underserved communities.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-contact">
+        <span class="top-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          contact@blessingsfoundation.org (Placeholder)
+        </span>
+        <span class="top-contact-item">
+          <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          +91 98765 43210 (Placeholder)
+        </span>
+      </div>
+      <div>
+        <span class="top-badge">Volunteer With Us &bull; Give Back to Society</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="images/blessings-foundation-logo.jpeg" alt="Blessings Foundation &amp; Trust Logo" class="brand-logo-img">
+        <div class="brand-logo-text">
+          <span class="brand-title">BLESSINGS</span>
+          <span class="brand-subtitle">FOUNDATION &amp; TRUST</span>
+        </div>
+      </a>
+
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="programs.html" class="nav-link">Our Work</a>
+        <a href="programs.html#all-programs" class="nav-link">Programs</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="volunteer.html" class="nav-link active">Get Involved</a>
+        <a href="contact.html" class="nav-link">Contact Us</a>
+        <div class="header-action">
+          <a href="donate.html" class="btn btn-primary btn-sm">Donate Now</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header Banner -->
+  <section style="background: linear-gradient(135deg, var(--secondary) 0%, #15304f 100%); color: #ffffff; padding: 4.5rem 0 3.5rem;">
+    <div class="container">
+      <span class="section-tag" style="background: rgba(245,130,32,0.2); color: #fed7aa; border: 1px solid rgba(245,130,32,0.4);">JOIN THE CAUSE</span>
+      <h1 style="color: #ffffff; font-size: 2.75rem; margin-top: 0.5rem; margin-bottom: 0.75rem;">Become a Volunteer</h1>
+      <p style="color: #cbd5e1; font-size: 1.15rem; max-width: 720px;">
+        Lend your time, skills, and empathy. Together, we can touch lives, educate children, and bring healthcare to families in need.
+      </p>
+    </div>
+  </section>
+
+  <!-- Volunteer Registration Form & Information -->
+  <section class="section-padding bg-light">
+    <div class="container">
+      <div class="about-grid" style="align-items: flex-start;">
+        <!-- Left Column: Registration Form -->
+        <div>
+          <div class="form-card">
+            <h2 style="font-size: 1.85rem; margin-bottom: 0.5rem;">Volunteer Registration</h2>
+            <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.75rem;">
+              Fill out your details below. Our volunteer team will review your interest and connect with you for upcoming drives.
+            </p>
+
+            <!-- Feedback Alert Banner -->
+            <div id="volunteerAlert" class="form-alert" role="alert"></div>
+
+            <form id="volunteerForm" novalidate>
+              <div class="form-group">
+                <label for="volName" class="form-label">Full Name *</label>
+                <input type="text" id="volName" name="name" class="form-control" placeholder="Enter your full name" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="volEmail" class="form-label">Email Address *</label>
+                  <input type="email" id="volEmail" name="email" class="form-control" placeholder="e.g. name@example.com" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="volPhone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="volPhone" name="phone" class="form-control" placeholder="e.g. +91 9876543210" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="volAddress" class="form-label">City / Address</label>
+                <input type="text" id="volAddress" name="address" class="form-control" placeholder="Your residential locality or city">
+              </div>
+
+              <div class="form-group">
+                <label for="volInterest" class="form-label">Area of Interest</label>
+                <select id="volInterest" name="interest" class="form-control">
+                  <option value="Education Support">Education &amp; Student Tutoring</option>
+                  <option value="Healthcare Awareness">Healthcare &amp; Medical Camps</option>
+                  <option value="Women Empowerment">Women Vocational Training &amp; Mentorship</option>
+                  <option value="Child Welfare">Child Care &amp; Nutrition Support</option>
+                  <option value="Environmental Drives">Tree Plantation &amp; Cleanliness</option>
+                  <option value="Community Food Relief">Food &amp; Essential Relief Drives</option>
+                  <option value="General Volunteer">General Event Coordination</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="volMessage" class="form-label">Why would you like to volunteer? / Any skills?</label>
+                <textarea id="volMessage" name="message" class="form-control" placeholder="Tell us briefly about your background, availability, or any specialized skills..."></textarea>
+              </div>
+
+              <button type="submit" id="volunteerSubmitBtn" class="btn btn-primary" style="width: 100%;">
+                Become a Volunteer
+              </button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Right Column: Why Volunteer & Roles -->
+        <div>
+          <span class="section-tag">Make an Impact</span>
+          <h2 class="section-title" style="font-size: 2rem;">Why Volunteer With Blessings Foundation?</h2>
+          <p style="color: var(--text-muted); font-size: 1.05rem; margin-bottom: 2rem;">
+            Volunteering with Blessings Foundation &amp; Trust is an opportunity to directly experience the joy of giving back and making a measurable change in grassroots communities.
+          </p>
+
+          <div class="about-cards-grid">
+            <div class="about-card">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+              </div>
+              <div>
+                <h3 class="about-card-title">Direct On-Ground Experience</h3>
+                <p class="about-card-text">
+                  Work directly alongside dedicated community members, doctors, and teachers during real field drives.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+              </div>
+              <div>
+                <h3 class="about-card-title">Network of Compassionate Peers</h3>
+                <p class="about-card-text">
+                  Connect with like-minded volunteers, students, professionals, and mentors who share your dedication to humanity.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-card">
+              <div class="about-card-icon">
+                <svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+              </div>
+              <div>
+                <h3 class="about-card-title">Certificate of Volunteer Service</h3>
+                <p class="about-card-text">
+                  Receive a formal certificate of appreciation recognizing your verified hours of volunteer dedication and social service.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h4>
+            <span style="color: var(--primary); font-size: 1.6rem;">&#9829;</span>
+            Blessings Foundation &amp; Trust
+          </h4>
+          <p>
+            Blessings Foundation &amp; Trust is committed to supporting communities, empowering people, and creating opportunities for a brighter and more inclusive tomorrow.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">&rarr; Home</a></li>
+            <li><a href="about.html">&rarr; About Us</a></li>
+            <li><a href="programs.html">&rarr; Our Work</a></li>
+            <li><a href="gallery.html">&rarr; Photo Gallery</a></li>
+            <li><a href="events.html">&rarr; Events</a></li>
+            <li><a href="volunteer.html">&rarr; Volunteer</a></li>
+            <li><a href="contact.html">&rarr; Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Our Programs</h4>
+          <ul class="footer-links">
+            <li><a href="programs.html#education">&rarr; Education Support</a></li>
+            <li><a href="programs.html#healthcare">&rarr; Healthcare Camps</a></li>
+            <li><a href="programs.html#women">&rarr; Women Empowerment</a></li>
+            <li><a href="programs.html#child">&rarr; Child Welfare</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Contact Information</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span>[Organization Address Placeholder]<br>Main Road, City, State - PIN</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+            <span>+91 [Phone Placeholder]</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Blessings Foundation &amp; Trust. All Rights Reserved.</p>
+        <p>A Dedicated Grassroots Welfare &amp; Community Development Trust.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

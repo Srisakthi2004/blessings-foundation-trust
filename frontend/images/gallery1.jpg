@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b3b5f" />
+      <stop offset="100%" stop-color="#2d5886" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g1)" />
+  <!-- Pattern grid -->
+  <circle cx="300" cy="200" r="140" fill="#f58220" opacity="0.15" />
+  <g transform="translate(230, 100)" fill="#ffffff">
+    <!-- Graduation Cap / Book Symbol -->
+    <polygon points="70,20 140,55 70,90 0,55" fill="#f58220" />
+    <path d="M 25 72 L 25 110 C 25 130, 115 130, 115 110 L 115 72" fill="none" stroke="#ffffff" stroke-width="6" />
+    <rect x="135" y="55" width="4" height="40" fill="#f58220" />
+    <circle cx="137" cy="100" r="7" fill="#f58220" />
+  </g>
+  <!-- Open Book underneath -->
+  <g transform="translate(210, 230)" fill="#ffffff" opacity="0.9">
+    <path d="M 10 20 Q 90 0, 90 40 Q 90 0, 170 20 L 170 50 Q 90 30, 90 70 Q 90 30, 10 50 Z" />
+  </g>
+  <rect x="0" y="320" width="600" height="80" fill="#0f172a" opacity="0.85" />
+  <text x="30" y="355" font-family="'Outfit', sans-serif" font-size="20" font-weight="700" fill="#ffffff">
+    Education &amp; Literacy Initiative
+  </text>
+  <text x="30" y="380" font-family="'Inter', sans-serif" font-size="13" fill="#f58220" font-weight="500">
+    Blessings Foundation &amp; Trust &bull; Empowering Children
+  </text>
+</svg>

@@ -1,0 +1,23 @@
+# Node dependencies and build output
+node_modules/
+react-app/node_modules/
+react-app/dist/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Java/Maven output
+backend/target/
+
+# IDE and OS files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+Thumbs.db
+.DS_Store
