@@ -204,7 +204,7 @@ export default function Contact() {
                   <div>
                     <h3 className="about-card-title">Registered Office (Placeholder)</h3>
                     <p className="about-card-text">
-                      Blessings Foundation &amp; Trust<br />
+                      Blessings Foundation Trust<br />
                       [Street / Building Placeholder], [Area Name],<br />
                       [City, State, Postal Code Placeholder]
                     </p>

@@ -167,7 +167,7 @@ export default function Donate() {
                   <tbody>
                     <tr style={{ borderBottom: '1px solid var(--border-color)' }}>
                       <td style={{ padding: '0.75rem 0', fontWeight: 600, color: 'var(--text-muted)', width: '40%' }}>Account Name:</td>
-                      <td style={{ padding: '0.75rem 0', fontWeight: 700, color: 'var(--secondary)' }}>Blessings Foundation &amp; Trust</td>
+                      <td style={{ padding: '0.75rem 0', fontWeight: 700, color: 'var(--secondary)' }}>Blessings Foundation Trust</td>
                     </tr>
                     <tr style={{ borderBottom: '1px solid var(--border-color)' }}>
                       <td style={{ padding: '0.75rem 0', fontWeight: 600, color: 'var(--text-muted)' }}>Account Number:</td>

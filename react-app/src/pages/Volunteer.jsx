@@ -211,7 +211,7 @@ export default function Volunteer() {
               <span className="section-tag">Make an Impact</span>
               <h2 className="section-title" style={{ fontSize: '2rem' }}>Why Volunteer With Blessings Foundation?</h2>
               <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '2rem' }}>
-                Volunteering with Blessings Foundation &amp; Trust is an opportunity to directly experience the joy of giving back and making a measurable change in grassroots communities.
+                Volunteering with Blessings Foundation Trust is an opportunity to directly experience the joy of giving back and making a measurable change in grassroots communities.
               </p>
 
               <div className="about-cards-grid">
